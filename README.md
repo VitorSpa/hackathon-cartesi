@@ -86,4 +86,4 @@ localhost:8080/inspect/balance/erc20/{wallet_account}/{power_token_address}
 * Eduardo Sarmento
 * Guilherme Brotto
 * Johann Schmitz Bastos
-* Vitor Zanotelli 
+* Vitor Fontana Zanotelli 
