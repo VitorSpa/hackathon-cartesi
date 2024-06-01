@@ -5,9 +5,9 @@ This repo contains the code develop in the SBRC24 hackathon. The __dApp__ contai
 To run the local blockchain, one must: 
 - follow this [tutorial](https://docs.cartesi.io/cartesi-rollups/1.3/quickstart/) to setup the cartesi environment.
 - After the setup is done, on the __dApp__, onem must build the application with the command `cartesi build`.
-- Once build is ready, executes the dApp with `cartesi run`. It will up the local server.
+- Once build is ready, executes the dApp with `cartesi run`. It will load the local server.
 
-The example developed in the hackathon aims to simulate a descentralized market where users can sell and buy energy credits - receveid by the power distribution company whenever the user sells its surplus energy from solar panels to the distribution company. To simulate this marker we use the library [Wallet](https://github.com/jplgarcia/python-wallet/), where a user has ether (a.k.a money :p) and solar tokens, a [ECR20](https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/) contract to simulate our credits in the blockchain.
+The example developed in the hackathon aims to simulate a descentralized market where users can sell and buy energy credits - receveid by the power distribution company whenever the user sells its surplus energy from solar panels to the distribution company. To simulate this market we use the library [Wallet](https://github.com/jplgarcia/python-wallet/), where a user has ether (a.k.a money :p) and solar tokens, a [ECR20](https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/) contract to simulate our credits in the blockchain.
 
 To simulate the transaction, one must follow the steps:
 - Once the server is running, follow the instructions on the __ecr20-power-token__ to deploy our power credits.
